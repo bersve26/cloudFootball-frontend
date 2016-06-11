@@ -1,6 +1,6 @@
 $(document).ready(function() {
     $.ajax({
-        url: "http://52.32.171.17:8080/teams/"
+        url: "http://531.svenb.io:8080/teams/"
     }).then(function(data) {
         var parsed = JSON.parse(data);
         var arr = [];
