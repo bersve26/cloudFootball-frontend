@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hello jQuery</title>
+    <title>EPL Predictor</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="teams.js"></script>
 </head>
 
 <body>
+<center>
+<img src="./res/bpl.png" alt="BPL" style="width:400px;height:400px;">    
 <form action="http://52.32.171.17/query.php" method="get">
 <div>
-    <p class="teams">Teams: </p>
+    <p class="teams" >
+    <font color="blue">Select Home and Away teams</font>
+    </p>
     <select id="opt" name="select2[]" multiple>
     </select>
-    <br>
-    <input type="submit" value="Submit" /></div>
+    <br/><br/><br/>
+    <center>
+    <input type="submit" value="Predict Winner" />
+    </center>
+</div>
 </form>
+</center>
 </body>
 </html>
